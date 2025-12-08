@@ -45,7 +45,7 @@ namespace Tyuiu.PetrovDR.Sprint5.Task0.V22
             string res = ds.SaveToFileTextData(x);
 
             Console.WriteLine("Файл: " + res);
-            Console.WriteLine("Создан!");
+            Console.WriteLine("Создaн!");
 
             Console.ReadKey();
         }
