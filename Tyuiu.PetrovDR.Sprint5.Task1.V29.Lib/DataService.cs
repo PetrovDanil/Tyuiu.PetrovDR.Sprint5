@@ -3,7 +3,7 @@ using System.IO;
 
 namespace Tyuiu.PetrovDR.Sprint5.Task1.V29.Lib
 {
-    public class DataService : ISprint5Task1V22
+    public class DataService : ISprint5Task1V29
     {
         public string SaveToFileTextData(int startValue, int stopValue)
         {
