@@ -1,6 +1,6 @@
 <Solution>
   <Folder Name="/Task0/">
-    <Project Path="Tyuiu.PetrovDR.Sprint5.Task0.V22.Lib/Tyuiu.PetrovDR.Sprint5.Task0.V22.Lib.csproj" />
+    <Project Path="Tyuiu.PetrovDR.Sprint5.Task0.V22.Lib/Tyuiu.PetrovDR.Sprint5.Task0.V22.Lib.csproj" Id="4b43d34e-ee61-4b91-878e-21a92c224fa3" />
     <Project Path="Tyuiu.PetrovDR.Sprint5.Task0.V22.Test/Tyuiu.PetrovDR.Sprint5.Task0.V22.Test.csproj" />
     <Project Path="Tyuiu.PetrovDR.Sprint5.Task0.V22/Tyuiu.PetrovDR.Sprint5.Task0.V22.csproj" />
   </Folder>
