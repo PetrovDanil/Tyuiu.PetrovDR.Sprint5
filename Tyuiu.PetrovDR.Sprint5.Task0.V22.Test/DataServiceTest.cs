@@ -9,12 +9,10 @@ namespace Tyuiu.PetrovDR.Sprint5.Task0.V22.Test
         [TestMethod]
         public void VaildSaveToFileTextData()
         {
-            string path = @"C:\Users\olilh\source\repos\PetrovDanil\Tyuiu.PetrovDR.Sprint5\Tyuiu.PetrovDR.Sprint5.Task0.V22\bin\Debug\net8.0\OutPutFileTask0.txt";
-
+            string path = Path.Combine(Path.GetTempPath(), "OutPutFileTask0.txt");
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
-            bool wait = true;
-            Assert.AreEqual(wait, fileExists);
+            Assert.IsTrue(fileExists);
         }
     }
 }
